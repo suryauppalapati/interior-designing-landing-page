@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    padding: 3rem;
+    background: url(./assets/retro-living-room-interior-design.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position-y: 20%;
+}
+
+/* navbar */
+
+.navbar{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_logo{
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.contactUs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav_list{
+    border-bottom: 2px solid #fff;
+}
+
+.nav_list ul{
+    list-style: none;
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.nav_list-item{
+    padding: 0 2rem;
+    font-size: large;
+    color: white;
+    cursor: pointer;
+}
+
+/* content-body */
+
+.content .title{
+    margin-top: 10rem;
+}
+
+.title p{
+ font-size: 5rem;
+ font-weight: 700;
+ color: #fff;
+ margin-bottom: 2.5rem;
+}
+
+.title button{
+    padding: 1.25rem 2.5rem;
+    background: transparent;
+    border: 2px solid #fff;
+    font-size: larger;
+    color: #fff;
+    border-radius: 2rem;
+}
+
+/* puzzle/bulb container */
+
+.container{
+    height: 10rem;
+    width: 20rem;
+    background-color: rgba(255, 255, 255, 0.171);
+}
+
+.puzzle_block{
+    position: relative;
+    bottom: 25rem;
+    left: 60rem;
+}
+
+.icon{
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    border: 1px solid transparent;
+    border-radius: 1.5rem;
+    background-color: #fff;
+}
+
+.puzzle_block-img, .ideabulb_block-img{
+    position: relative;
+    top: 2rem;
+    left: 2rem;
+}
+
+.text{
+    color: #fff;
+    margin: 0.75rem 0;
+    font-weight: 500;
+    font-size: large;
+    position: relative;
+    top: 2rem;
+    left: 2rem;
+}
+
+.puzzle_line{
+    position: relative;
+    bottom: 25rem;
+    left: 75rem;
+    height: 4rem;
+    width: 2px;
+    background-color: #fff;
+}
+
+.circle{
+    height: 1rem;
+    width: 1rem;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 100%;
+}
+
+.puzzle_circle{
+    position: relative;
+    bottom: 25rem;
+    left: 74.55rem;
+}
+
+
+.ideabulb_block{
+    position: relative;
+    bottom: 20rem;
+    left: 45rem;
+}
+
+.bulb_line{
+    position: relative;
+    bottom: 25rem;
+    left: 65rem;
+    height: 2px;
+    width: 4.5rem;
+    background-color: #fff;
+}
+
+.bulb_circle{
+    position: relative;
+    bottom: 25.5rem;
+    left: 69.5rem;
+}
